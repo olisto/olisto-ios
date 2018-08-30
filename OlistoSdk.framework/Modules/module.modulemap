@@ -1,0 +1,11 @@
+framework module OlistoSdk {
+  umbrella header "OlistoSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module OlistoSdk.Swift {
+    header "OlistoSdk-Swift.h"
+    requires objc
+}
